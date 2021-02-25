@@ -1,8 +1,8 @@
-import { UserRol } from "./Roles";
+import { UserRole } from "./Roles";
 
 export interface User {
   username: string,
   fullname: string,
-  roles: UserRol[];
+  roles: UserRole[];
   active: boolean;
 }
